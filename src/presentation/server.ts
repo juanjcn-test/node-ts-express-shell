@@ -1,6 +1,6 @@
 import express, { Router } from 'express';
 import path from 'path';
-import { normalizeBody } from '../middlewares/normalizeBody';
+import { normalizeBody } from './middlewares/normalizeBody';
 
 interface Options {
   port: number;
