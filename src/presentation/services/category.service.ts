@@ -71,7 +71,6 @@ export class CategoryService {
             throw CustomError.internalServer(`${error}`);
         }
 
-        // [{},{},{}]
     }
 
 }
